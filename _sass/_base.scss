@@ -207,7 +207,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 50%;
 
     .address {
       p {
@@ -275,6 +275,10 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+  }
+
+  .navbar-highlight {
+    color: var(--global-theme-color);
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -426,7 +430,7 @@ ul.task-list input[type="checkbox"] {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-theme-color);
   font-size: 0.75rem;
 
   .container {
