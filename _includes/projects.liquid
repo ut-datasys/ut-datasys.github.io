@@ -1,35 +1,93 @@
-<div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
-      </div>
+<div class="project-container">
+  <div class="project-card">
+    <div class="project-details">
+      <h3 class="project-title">{{ project.title }}</h3>
     </div>
-  </a>
+    {% if project.uselink %}
+    <a href="{{ project.url }}" class="project-link">
+      <div class="project-image-container">
+        <img src="{{ project.img }}" alt="{{ project.title }}" class="project-image">
+      </div>
+    </a>
+    {% else %}
+    <div class="project-image-container project-link">
+      <img src="{{ project.img }}" alt="{{ project.title }}" class="project-image">
+    </div>
+    {% endif %}
+    {% if project.description %}
+        <div class="project-details">
+        <p class="project-description">{{ project.description }}</p>
+        </div>
+    {% endif %}
+  </div>
 </div>
+
+<style>
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0;
+}
+
+.project-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  background-color: #fff;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-link {
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+  height: 200px;
+}
+
+.project-image-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align image to the top initially */
+}
+
+.project-image {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-link:hover .project-image {
+  transform: translateY(-30%);
+}
+
+.project-details {
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.project-title {
+  margin: 0px 0 0px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.project-description {
+  font-size: 14px;
+  color: #555;
+  margin: 3px 0 0px;
+}
+</style>
+

@@ -1,0 +1,20 @@
+faculty:
+  - name: Dixin Tang 
+    icon: /assets/img/team/tang.jpg
+    link: https://dx-tang.github.io/
+    role: Assistant Professor
+  - name: Vijay Chidambaram 
+    icon: /assets/img/team/Chidambaram.jpg
+    link: https://www.cs.utexas.edu/~vijay/ 
+    role: Associate Professor
+
+students:
+  - name: Yibo Huang 
+    icon: /assets/img/team/huang.jpg
+    link: https://yibo-huang.github.io/
+    role: PhD Student 
+  - name: Zetten Wang 
+    icon: /assets/img/team/wang.png
+    link: https://ziteng.wang/ 
+    role: PhD Student 
+

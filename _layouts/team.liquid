@@ -1,0 +1,26 @@
+---
+layout: default 
+---
+    <h2>Faculty</h2>
+    <div class="faculty-row">
+        <div class="team-grid">
+            {% for faculty in site.data.team.faculty %}
+                <div class="team-member">
+                    <img src="{{ faculty.icon | relative_url }}" alt="{{ faculty.name }}" width="100" height="100" class="team-icon">
+                    <a href="{{ faculty.link }}" target="_blank">{{ faculty.name }}</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <h2>Students</h2>
+    <div class="students-row">
+        <div class="team-grid">
+            {% for student in site.data.team.students %}
+                <div class="team-member">
+                    <img src="{{ student.icon | relative_url }}" alt="{{ student.name }}" width="100" height="100" class="team-icon">
+                    <a href="{{ student.link }}" target="_blank">{{ student.name }}</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
