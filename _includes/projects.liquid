@@ -4,8 +4,8 @@
       <h3 class="project-title">{{ project.title }}</h3>
     </div>
     {% if project.uselink %}
-    <a href="{{ project.url }}" class="project-link">
-      <div class="project-image-container">
+    <a href="{{ project.url }}">
+      <div class="project-image-container project-link">
         <img src="{{ project.img }}" alt="{{ project.title }}" class="project-image">
       </div>
     </a>
@@ -53,7 +53,8 @@
 }
 
 .project-image-container {
-  width: 100%;
+  width: calc(100% - 20px);
+  margin: 0 auto; /* Center the container horizontally */
   height: 150px;
   overflow: hidden;
   display: flex;
@@ -82,11 +83,12 @@
   margin: 0px 0 0px;
   font-size: 22px;
   font-weight: bold;
+  color: #595959;
 }
 
 .project-description {
   font-size: 14px;
-  color: #555;
+  color: #595959;
   margin: 3px 0 0px;
 }
 </style>

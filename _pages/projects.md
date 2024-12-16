@@ -13,7 +13,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h3 class="category" style="margin-bottom: 20px;">{{ category }}</h3>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
@@ -23,5 +23,6 @@ horizontal: false
       {% include projects.liquid %}
     {% endfor %}
   </div>
+  <hr>
   {% endfor %}
 </div>
