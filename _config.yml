@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: UT Data Systems # the website title (if blank, full name will be used instead)
-first_name: You
+first_name: Dixin
 middle_name: R.
-last_name: Name
+last_name: Tang
 email: you@example.com
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
