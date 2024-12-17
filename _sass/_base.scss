@@ -4,6 +4,13 @@
 
 // Typography
 
+@font-face {
+    font-family: 'MyFont';
+    src: url('/assets/newfonts/TitilliumWeb-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 p,
 h1,
 h2,
