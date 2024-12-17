@@ -23,8 +23,7 @@ Our mission is to address fundamental research questions in data systems and dev
 <p style="font-family: sans-serif;">This text is in My Titillium Web.</p>
 <p style="font-family: sans-serif;">This text is in sans-serif.</p>
 <p style="font-family: 'Font Awesome 6 Free', sans-serif;">This text is in Font Awesome 6 Free.</p>
-<p style="font-family: 'Linux Libertine';">This text is in My Font.</p>
-
+<p style="font-family: MyFont;">This text is in My Font.</p>
 
 
 
