@@ -18,12 +18,12 @@ UT Data Systems Lab at the [University of Texas at Austin](https://www.cs.utexas
 Our mission is to address fundamental research questions in data systems and develop prototype solutions for modern data-intensive applications.
 </p>
 
-<p style="font-family: 'Arial', sans-serif;">This text is in Arial.</p>
+<p style="font-family: 'Arial';">This text is in Arial.</p>
 <p style="font-family: Times;">This text is in Times.</p>
-<p style="font-family: 'Titillium Web', sans-serif;">This text is in My Titillium Web.</p>
-<p style="font-family: 'sans-serif', sans-serif;">This text is in sans-serif.</p>
+<p style="font-family: sans-serif;">This text is in My Titillium Web.</p>
+<p style="font-family: sans-serif;">This text is in sans-serif.</p>
 <p style="font-family: 'Font Awesome 6 Free', sans-serif;">This text is in Font Awesome 6 Free.</p>
-<p style="font-family: MyFont;">This text is in My Font.</p>
+<p style="font-family: 'Linux Libertine';">This text is in My Font.</p>
 
 
 
