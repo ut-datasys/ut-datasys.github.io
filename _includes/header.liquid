@@ -3,10 +3,10 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            <strong>
-                  <span class="navbar-highlight">UT</span>
-                  <span class="navbar-highlight"> D</span>ata
-                  <span class="navbar-highlight"> S</span>ystems
+            <strong class="header">
+                  <span class="navbar-highlight header">UT</span>
+                  <span class="navbar-highlight header"> D</span>ata
+                  <span class="navbar-highlight header"> S</span>ystems
             </strong>
           
       </a>
@@ -34,7 +34,7 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            <a class="nav-link header" href="{{ '/' | relative_url }}">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -83,7 +83,7 @@
               {% else %}
                 <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a class="nav-link header" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>

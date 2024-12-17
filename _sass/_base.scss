@@ -5,8 +5,15 @@
 // Typography
 
 @font-face {
-    font-family: 'MyFont';
-    src: url('../newfonts/TitilliumWeb-Light.ttf') format('truetype');
+    font-family: 'LocalFont-Light';
+    src: url('../localfonts/Helvetica-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LocalFont';
+    src: url('../localfonts/Helvetica.woff') format('woff'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +31,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: LocalFont-Light;
 }
 
 hr {
@@ -159,6 +167,10 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
+}
+
+.header{
+    font-family: LocalFont;
 }
 
 // Card
