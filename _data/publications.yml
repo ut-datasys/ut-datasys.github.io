@@ -1,6 +1,6 @@
 publications:
   - title: "Pasha: An Efficient, Scalable Database Architecture for CXL Pods" 
-    link: "https://dx-tang.github.io/paper/Pasha-CIDR25.pdf"
+    link: "https://vldb.org/cidrdb/papers/2025/p8-huang.pdf"
     authors: "Yibo Huang, Newton Ni, Vijay Chidambaram, Emmett Witchel, Dixin Tang"
     conference: "CIDR 2025"
     date: 2025-01-16
@@ -12,3 +12,9 @@ publications:
       #        url: "https://example.com/code"
       #      - label: "Note"
       #        note: "Additional comments about the paper"
+
+  - title: "Impeller: Stream Processing on Shared Logs" 
+    link: "https://ut-datasys.github.io/"
+    authors: "Zhiting Zhu, Zhipeng Jia, Newton Ni, Dixin Tang, Emmett Witchel"
+    conference: "EuroSys 2025"
+    date: 2025-01-26

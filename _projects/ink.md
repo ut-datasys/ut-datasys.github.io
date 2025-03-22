@@ -1,7 +1,7 @@
 ---
 layout: page
-title: INK 
-description: Automatically synthesizing incremental programs for large-scale data analysis systems.  
+title: Ink
+description: Automatically incrementalizing user-defined data analysis programs.  
 img: /assets/img/db.jpg
 category: Formal Methods for Data Systems  
 uselink: False

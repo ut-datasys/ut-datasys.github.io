@@ -1,14 +1,24 @@
-faculty:
-  - name: Dixin Tang 
-    icon: /assets/img/team/tang.jpg
-    link: https://dx-tang.github.io/
-    role: Assistant Professor
+core-faculty:
   - name: Vijay Chidambaram 
     icon: /assets/img/team/Chidambaram.jpg
     link: https://www.cs.utexas.edu/~vijay/ 
     role: Associate Professor
+  - name: Dixin Tang 
+    icon: /assets/img/team/tang.jpg
+    link: https://dx-tang.github.io/
+    role: Assistant Professor
+  - name: Emmett Witchel 
+    icon: /assets/img/team/witchel.jpg
+    link: https://www.cs.utexas.edu/~witchel/
+    role: Professor
+
+aff-faculty:
+
 
 students:
+  - name: Tianming Wu 
+    icon: /assets/img/team/default.png
+    role: PhD Student 
   - name: Yibo Huang 
     icon: /assets/img/team/huang.jpg
     link: https://yibo-huang.github.io/

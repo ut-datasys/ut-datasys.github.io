@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AutoStore 
-description: Automatic data layout designs for knowledge databases  
+title: WaveDB 
+description: A workload-aware vector database  
 img: /assets/img/db.jpg
 category: Data Systems for Machine Learning  
 uselink: False

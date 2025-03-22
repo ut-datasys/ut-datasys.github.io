@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Pasha 
-description: A scalable, efficient distributed database architecture on CXL memory  
+title: Tigon 
+description: a distributed transactional database on CXL memory  
 img: /assets/img/db.jpg
 category: Data Systems on Modern Hardware  
-uselink: Yes
+uselink: No 
 ---
 
 #### Pasha: An Efficient, Scalable Database Architecture for CXL Pods  
@@ -35,4 +35,4 @@ both architectures.
 
 #### Publication
 
-[Pasha: An Efficient, Scalable Database Architecture for CXL Pods](https://vldb.org/cidrdb/papers/2025/p8-huang.pdf), CIDR 2025
+[Pasha: An Efficient, Scalable Database Architecture for CXL Pods](https://dx-tang.github.io/paper/Pasha-CIDR25.pdf), CIDR 2025
