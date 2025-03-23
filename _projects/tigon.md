@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tigon 
-description: a distributed transactional database on CXL memory  
+description: A distributed transactional database on CXL memory  
 img: /assets/img/db.jpg
 category: Data Systems on Modern Hardware  
 uselink: No 
