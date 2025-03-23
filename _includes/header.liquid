@@ -73,7 +73,9 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
+                          <a class="dropdown-item {% if page.title == child.title %}active{% endif %}"
+                             href="{{ child.permalink | relative_url }}"
+                             >
                           {{- child.title -}}
                         </a>
                       {% endif %}
