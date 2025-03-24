@@ -25,7 +25,7 @@ nav_order: 1
 </div>
 </ul>
 
-<h2 class="mb-3"><a id="faculty"></a>Allifiated Faculty</h2>
+<h2 class="mb-3"><a id="faculty"></a>Faculty</h2>
 
 {% assign members = site.data.team.faculty %}
 <ul class="list-unstyled">
