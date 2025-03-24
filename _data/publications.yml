@@ -14,7 +14,7 @@ publications:
       #        note: "Additional comments about the paper"
 
   - title: "Impeller: Stream Processing on Shared Logs" 
-    link: "https://ut-datasys.github.io/"
+    link: "#"
     authors: "Zhiting Zhu, Zhipeng Jia, Newton Ni, Dixin Tang, Emmett Witchel"
     conference: "EuroSys 2025"
     date: 2025-01-26
