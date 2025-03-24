@@ -7,7 +7,7 @@ nav_order: 1
 ---
 
 <!-- Faculty -->
-<h2 class="mb-3"><a id="core-faculty"></a>Core Faculty</h2>
+<h2 class="mb-3"><a id="core-faculty"></a>Coordinating Faculty</h2>
 
 {% assign members = site.data.team.core-faculty %}
 <ul class="list-unstyled">
