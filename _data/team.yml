@@ -13,6 +13,10 @@ core-faculty:
     role: Professor
 
 faculty:
+  - name: Aditya Akella
+    icon: /assets/img/team/akella.png
+    link: https://www.cs.utexas.edu/~akella/
+    role: Professor
   - name: Isil Dillig
     icon: /assets/img/team/dillig.png
     link: https://www.cs.utexas.edu/~isil/
@@ -23,15 +27,21 @@ faculty:
     role: Associate Professor
 
 students:
-  - name: Tianming Wu 
+   - name: Haowei Chen 
     icon: /assets/img/team/default.png
-    role: PhD Student 
+    role: PhD Student   
   - name: Yibo Huang 
     icon: /assets/img/team/huang.jpg
     link: https://yibo-huang.github.io/
     role: PhD Student 
+   - name: Newton Ni 
+    icon: /assets/img/team/default.png
+    role: PhD Student
   - name: Zetten Wang 
     icon: /assets/img/team/wang.png
     link: https://ziteng.wang/ 
+    role: PhD Student 
+  - name: Tianming Wu 
+    icon: /assets/img/team/default.png
     role: PhD Student 
 
