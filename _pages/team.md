@@ -15,7 +15,7 @@ nav_order: 1
 {% for member in members%}
     {% assign ncols = 3 %}
     {% assign i = forloop.index0 | modulo: ncols %}
-        <div class="col">
+        <div class="col-md-4">
             {%- include team_member.html -%}
         </div>
     {% if i == 2 %}
@@ -25,7 +25,7 @@ nav_order: 1
 </div>
 </ul>
 
-<h2 class="mb-3"><a id="faculty"></a>Faculty</h2>
+<h2 class="mb-3"><a id="faculty"></a>Allifiated Faculty</h2>
 
 {% assign members = site.data.team.faculty %}
 <ul class="list-unstyled">
@@ -33,7 +33,7 @@ nav_order: 1
 {% for member in members%}
     {% assign ncols = 3 %}
     {% assign i = forloop.index0 | modulo: ncols %}
-        <div class="col">
+        <div class="col-md-4">
             {%- include team_member.html -%}
         </div>
     {% if i == 2 %}
@@ -52,7 +52,7 @@ nav_order: 1
 {% for member in members%}
     {% assign ncols = 3 %}
     {% assign i = forloop.index0 | modulo: ncols %}
-        <div class="col">
+        <div class="col-md-4">
             {%- include team_member.html -%}
         </div>
     {% if i == 2 %}

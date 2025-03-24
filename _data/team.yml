@@ -1,14 +1,14 @@
 core-faculty:
   - name: Vijay Chidambaram 
-    icon: /assets/img/team/Chidambaram.jpg
+    icon: /assets/img/team/chidambaram.png
     link: https://www.cs.utexas.edu/~vijay/ 
     role: Associate Professor
   - name: Dixin Tang 
-    icon: /assets/img/team/tang.jpg
+    icon: /assets/img/team/tang.png
     link: https://dx-tang.github.io/
     role: Assistant Professor
   - name: Emmett Witchel 
-    icon: /assets/img/team/witchel.jpg
+    icon: /assets/img/team/witchel.png
     link: https://www.cs.utexas.edu/~witchel/
     role: Professor
 
@@ -27,14 +27,14 @@ faculty:
     role: Associate Professor
 
 students:
-   - name: Haowei Chen 
+  - name: Haowei Chen 
     icon: /assets/img/team/default.png
     role: PhD Student   
   - name: Yibo Huang 
     icon: /assets/img/team/huang.jpg
     link: https://yibo-huang.github.io/
     role: PhD Student 
-   - name: Newton Ni 
+  - name: Newton Ni 
     icon: /assets/img/team/default.png
     role: PhD Student
   - name: Zetten Wang 
