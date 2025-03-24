@@ -13,7 +13,14 @@ core-faculty:
     role: Professor
 
 faculty:
-
+  - name: Isil Dillig
+    icon: /assets/img/team/dillig.png
+    link: https://www.cs.utexas.edu/~isil/
+    role: Professor
+  - name: Christopher Rossbach 
+    icon: /assets/img/team/rossbach.png
+    link: https://www.cs.utexas.edu/~rossbach/ 
+    role: Associate Professor
 
 students:
   - name: Tianming Wu 
