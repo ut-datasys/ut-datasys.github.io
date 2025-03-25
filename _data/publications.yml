@@ -18,3 +18,8 @@ publications:
     authors: "Zhiting Zhu, Zhipeng Jia, Newton Ni, Dixin Tang, Emmett Witchel"
     conference: "EuroSys 2025"
     date: 2025-01-26
+  - title: "Tigon: A Distributed Database for a CXL Pod" 
+    link: "#"
+    authors: " Yibo Huang, Haowei Chen, Newton Ni, Vijay Chidambaram, Dixin Tang, Emmett Witchel"
+    conference: "OSDI 2025"
+    date: 2025-03-25
