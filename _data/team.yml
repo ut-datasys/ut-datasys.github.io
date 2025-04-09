@@ -44,4 +44,9 @@ students:
   - name: Tianming Wu 
     icon: /assets/img/team/wu.jpg
     role: PhD Student 
-
+  - name: Sahir G Hameed
+    icon: /assets/img/team/sahir.jpg
+    role: Undergraduate Student
+  - name: Erik Gonzalez
+    icon: /assets/img/team/erik.jpg
+    role: Undergraduate Student
